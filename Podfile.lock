@@ -1,0 +1,15 @@
+PODS:
+  - Firebase (2.5.1)
+  - SCLAlertView (0.5.6)
+
+DEPENDENCIES:
+  - Firebase
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  SCLAlertView: c2b916952520d96cf5e886a38053f1b8c3da502e
+
+PODFILE CHECKSUM: 59f7d0b9796b00e45bb52ee1b803c540c316d16a
+
+COCOAPODS: 1.0.0.rc.2
