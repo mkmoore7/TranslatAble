@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SCLAlertView
 
 class SpeechRecordVC: ViewController {
 
@@ -36,9 +37,21 @@ class SpeechRecordVC: ViewController {
             sender.setImage(UIImage(named: "record_red_big.png"), forState: UIControlState.Normal)
             recording = false;
             
-            //self.recordLabel.text = "Finished Recording"
-            
             //stop recording
+            
+            //Display Alert
+            let appearance = SCLAlertView.SCLAppearance(
+                showCircularIcon: true,
+                showCloseButton: false
+            )
+            let alertView = SCLAlertView(appearance: appearance)
+            let alertViewIcon = UIImage(named: "mic")
+            let txt = alertView.addTextField("What does it mean?")
+            alertView.addButton("Add Speech") {
+                print("Speech Meaning: \(txt.text)")
+            }
+            alertView.showInfo("Add Speech", subTitle: "Please enter some information about the new word/phrase", circleIconImage: alertViewIcon)
+            
             
         }
 

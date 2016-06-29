@@ -67,7 +67,6 @@
 		193F6D354C2229E751FF8D069EA0D710 /* Pods-Translatable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Translatable-acknowledgements.markdown"; sourceTree = "<group>"; };
 		247EC7483FA9401B02412CB4DD9E8F57 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
 		2723B5AF7EF293383ED8EE0A66FF24FC /* FEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEventType.h; sourceTree = "<group>"; };
-		2B36F67B1CEB5E4000FA0826 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
 		3055FC685179955C2C949434583C2DDA /* FirebaseServerValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseServerValue.h; sourceTree = "<group>"; };
 		316A519E157A5A08B87BF7BAB6280FF8 /* FAuthType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthType.h; sourceTree = "<group>"; };
 		42E6733027FC9315AF23A7322120DA6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,7 +158,6 @@
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B36F67B1CEB5E4000FA0826 /* MyoKit.framework */,
 				21E8101B1E2DBD0F5665941ACCDCEC22 /* iOS */,
 			);
 			name = Frameworks;
